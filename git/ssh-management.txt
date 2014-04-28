@@ -21,6 +21,9 @@ eval $(ssh-agent)
 ssh-add
 #add private key to the agent
 
+ssh-agent -k
+# kills the agent
+
 
 Auto start SSH agent when session is opened:
 # add to the ~/.bashrc file and then source
