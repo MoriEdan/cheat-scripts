@@ -1,11 +1,10 @@
-Nmap
+Nmap cheat scripts
 
 Basic Scan
 nmap -v -n 192.168.1.106
-# no name resolution
 
 
 OS Finterprint Scan
 nmap -sV -n 192.168.1.106
-# 
+
 

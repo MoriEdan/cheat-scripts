@@ -1,11 +1,9 @@
-Metasploit cheat scripts
+Metasploit Scanner cheats
 
 msfconsole #starts metasploit
 msfupdate #updates metasploit
 run + two tabs #lists all meterpreter scripts
 
-
-Scanners:
 
 Heartbleed scanner
 msf> use auxiliary/scanner/ssl/openssl_heartbleed
