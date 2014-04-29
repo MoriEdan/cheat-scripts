@@ -1,34 +1,34 @@
-SSH management cheat scripts
+Git SSH management cheats
+=========================
 
-Create SSH keys:
-$ ssh-keygen -t rsa 
-#will be located in ~/.ssh
+<h4>Create SSH keys:</h4>
+<pre>
+$ ssh-keygen -t rsa     #will be located in ~/.ssh
+</pre>
 
-
-Change Remote Origin for SSH
-# edit .git/config:
-
+<h4>Change Remote Origin for SSH</h4>
+<pre>
+$ nano .git/config:
+change:
 [remote "origin"]
         url = ssh://git@bitbucket.org/user/repo.git
         fetch = +refs/heads/*:refs/remotes/origin/*
 
+</pre>
 
-SSH Agent MGMT:
+<h4>SSH-agent</h4>
+<pre>
+$ eval $(ssh-agent)       #start the ssh agent
+$ ssh-add       #add private key to the agent
 
-eval $(ssh-agent)
-#start the ssh agent
-
-ssh-add
-#add private key to the agent
-
-ssh-agent -k
-# kills the agent
+ssh-agent -k    # kills the agent
+</pre>
 
 
-Auto start SSH agent when session is opened:
-# add to the ~/.bashrc file and then source
-
-
+<h4>Auto start SSH agent with new session:</h4>
+<pre>
+$ nano ~/.bashrc
+# add to the file and source:
 SSH_ENV=$HOME/.ssh/environment
 
 # start the ssh-agent
@@ -50,3 +50,4 @@ if [ -f "${SSH_ENV}" ]; then
 else
     start_agent;
 fi
+</pre>
