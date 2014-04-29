@@ -1,8 +1,6 @@
 NVM (Node version manager) cheats
 =================================
 
-
-#instructions for digital ocean droplet from scratch
 <h4>Create non-root user & add to sudoers:</h4>
 <pre>
 $ useradd -d /home/ -s /bin/bash  -m node-user
