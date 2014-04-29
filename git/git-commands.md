@@ -1,58 +1,65 @@
-Repository command cheat scripts
+Git command cheats
+================================
 
-
-Install
+<h4>Install</h4>
+<pre>
 $ apt-get install git
-$ yum install git-core
+</pre>
 
 
-
-Identity Configuration:
+<h4>Identity Configuration:</h4>
+<pre>
 $ git config --global user.name "username"
 $ git config --global user.email "user@gmail.com"
+</pre>
 
-
-View Username:
+<h4>View Username:</h4>
+<pre>
 $ git config user.name
+</pre>
 
-
-Remote Origin:
-
-#adding remote origin
+<h4>Remote Origin:</h4>
+<pre>
+# adding remote origin
 $ git remote add origin https://github.com/user/repo.git
 
-#reset remote origin
+# reset remote origin
 $ git remote set-url origin git://new.url.here
 
-#view remotes
+# view remotes
 $ git remote -v
+</pre>
 
 
-Resync .gitignore
+<h4>Resync .gitignore</h4>
+<pre>
 $ git rm -r --cached
 $ git add --all # or git add .
 $ git commit -m "resync"
 $ git push
+</pre>
 
-
-Push: 
+<h4>Push: </h4>
+<pre>
 $ git add --all # or git add .
 $ git commit -m "first"
 $ git push
-
+</pre>
  
-Cloning:
-clone into directory
+<h4>Cloning:</h4>
+<pre>
+# clone into directory
 $ git clone https://github.com/repo.git /opt/repo-folder
+</pre>
 
-
-Add Existing Repo to Github: 
+<h4>Add Existing Repo to Github: </h4>
+<pre>
 $ git init
 $ git add --all
 $ git commit -m "adding new"
 $ git remote add origin https://github.com/user/repo.git
 $ git push origin master
-
+</pre>
 
 
 
