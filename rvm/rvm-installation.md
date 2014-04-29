@@ -8,7 +8,7 @@ $ nano ~/.bash_profile
 # Add to file and source:
 [[ -s "$HOME/.profile" ]] && source "$HOME/.profile" # Load the default .profile
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
-
+</pre>
 
 <h4>Install Ruby in RVM:</h4>
 <pre>
