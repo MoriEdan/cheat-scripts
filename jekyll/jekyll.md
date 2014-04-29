@@ -10,12 +10,9 @@ $ gem install jekyll
 <h3>Configure yaml file:</h3>
 <pre>
 $ nano _config.yml
-
-add the following:
-
+#add the following:
 name: site name
 markdown: redcarpet
-
 </pre>
 
 <h3>File Structure setup:</h3>
@@ -42,17 +39,17 @@ $ git clone https://github.com/Keyamoon/IcoMoon--limited-.git #icomoon
 <h4>Enable Bootstrap & Jquery js files:</h4>
 <pre>
 $ nano _layouts/default.html
-add to the file:
-<\script src="{{ site.url }}/js/bootstrap.js"></script\>
-<\script src="http://code.jquery.com/jquery-1.10.1.min.js"></script\>
+#add to the file:
+&lt;script src="{{ site.url }}/js/bootstrap.js"&gt;&lt;/script&gt;
+&lt;script src="http://code.jquery.com/jquery-1.10.1.min.js"&gt;&lt;/script&gt;
 </pre>
 
 <h4>Enable Bootstrap & Font Awesome CSS files:</h4>
 <pre>
 $ nano _includes/header.html
-add to the file:
-<\link rel="stylesheet" href="{{ site.url }}/css/bootstrap.css\>
-<\link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet"\>
+#add to the file:
+&lt;link rel="stylesheet" href="{{ site.url }}/css/bootstrap.css&gt;
+&lt;link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet"&gt;
 </pre>
 
 <h4>Generate site:</h4>
