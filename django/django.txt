@@ -1,0 +1,73 @@
+Django installation cheats
+
+Install dependencies:
+$ sudo curl -O https://bitbucket.org/pypa/setuptools/raw/bootstrap/ez_setup.py
+$ sudo python ez_setup.py --user
+$ sudo easy_install pip
+
+Install Django and modules:
+$ sudo pip install Django==1.6.1
+$ sudo pip install dj-static #static file server
+$ sudo pip install django-taggit #tagging module
+
+Create Django directory:
+$ mkdir site
+$ cd site
+$ sudo django-admin.py startproject blog
+
+Launch web server:
+$ sudo chmod +x manage.py
+$ sudo ./manage.py runserver
+go to localhost:8000
+
+Sync Database:
+$ cd site/blog
+$ sudo python ./manage.py syncdb #enter username and pwd
+$ sudo chmod 755 dbsqlite3
+$ sudo ./manage.py runserver 
+go to localhost:8000/admin to check if admin page working
+login with credentials created with syncdb
+
+Build Application directory:
+$ sudo python manage.py startapp myblog
+
+
+
+Configure static assets:
+$ cd site/blog/myblog
+$ nano settings.py
+add the lines: 
+STATIC_ROOT = 'staticfiles'
+STATIC_URL = '/static/'
+
+
+
+Configure wsgi file for dj-static to serve files:
+$ cd site/blog/myblog
+$ nano wsgi.py
+add the lines:
+from dj_static import Cling
+application = Cling(get_wsgi_application())
+
+
+Collect all static files an prepare for serving:
+$ cd site/blog
+$ sudo python ./manage.py collectstatic
+$ sudo python ./manage.py syncdb #make sure database is up to date
+$ sudo python ./manage.py runserver #starts server; visit at localhost:8000/myblog
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

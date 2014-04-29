@@ -1,0 +1,24 @@
+NVM (Node version manager) installation
+#instructions for digital ocean droplet from scratch
+
+
+Create non-root user & add to sudoers:
+$ useradd -d /home/ -s /bin/bash  -m node-user
+$ passwd node-user
+$ su root 
+$ sudo adduser node-user sudo
+$ su node-user
+
+$ apt-get update
+$ chown node-user /home
+$ sudo apt-get install g++ curl libssl-dev apache2-utils git-core
+$ curl https://raw.github.com/creationix/nvm/master/install.sh | sh
+
+Activate NVM:
+$ source ~/.nvm/nvm.sh
+
+
+Install Node.js
+$ nvm install <version>
+$ nvm alias default <version>
+

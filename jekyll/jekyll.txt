@@ -1,0 +1,58 @@
+Jekyll cheats
+
+Load Ruby version in RVM:
+$ rvm use 2.1.0
+$ gem install jekyll
+
+
+Configure yaml file:
+$ nano _config.yml
+
+add the following:
+name: site name
+markdown: redcarpet
+
+
+File Structure setup:
+$ mkdir _includes #headers and footers
+$ mkdir _layouts #used in themes
+$ mkdir _posts
+
+
+Download Bootstrap
+$ git clone https://github.com/twbs/bootstrap.git
+# move bootstrap-theme.css, bootstrap-theme.min.css, bootstrap.css, bootstrap.min.css to the /css folder
+
+Download Icons
+$ git clone https://github.com/FortAwesome/Font-Awesome.git #Font Awesome
+$ git clone https://github.com/aristath/elusive-iconfont.git #elusive
+$ git clone https://github.com/Keyamoon/IcoMoon--limited-.git #icomoon
+# move buttons folders to the /css folder
+
+Enable Bootstrap & Jquery js files:
+$ nano _layouts/default.html
+add to the file:
+<script src="{{ site.url }}/js/bootstrap.js"></script>
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+
+Enable Bootstrap & Font Awesome CSS files:
+$ nano _includes/header.html
+add to the file:
+<link rel="stylesheet" href="{{ site.url }}/css/bootstrap.css">
+<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+
+Generate site:
+$ jekyll build #generates sites at ./_site
+
+
+Serve to Localhost:
+$ jekyll serve #serves to localhost:4000
+or
+$ jekyll serve --watch #serves to localhost:4000 and regenerates for changes
+
+
+If localhost:4000 socket stays open:
+$ sudo lsof -wni tcp:4000 #mark down what pid is using the socket
+$ sudo kill -9 <pid>
+
