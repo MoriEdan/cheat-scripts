@@ -1,0 +1,6 @@
+Install Homebrew for OSX package mgmt:
+
+
+#must be logged in as root/admin
+ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
+

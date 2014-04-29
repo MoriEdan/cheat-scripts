@@ -1,0 +1,32 @@
+Memcached installation cheats
+
+$ apt-get update
+$ apt-get install build-essential
+$ apt-get install php5-gd 
+$ apt-get install php5-memcache 
+$ apt-get install memcached 
+
+Install Memcached:
+$ sudo apt-get install memcached libmemcached-tools
+$ sudo apt-get install php5-dev php-pear make
+$ sudo pecl install memcache
+
+
+Create ini file:
+$ sudo nano /etc/php5/conf.d/memcache.ini
+#add lines:
+extension=memcache.so
+memcache.hash_strategy="consistent"
+
+
+Edit conf file:
+$ sudo nano /etc/memcached.conf 
+#Change this value to ~ 1/4 of your total available RAM
+
+
+Restart Memcached and Apache:
+$ sudo /etc/init.d/memcached restart
+$ sudo /etc/init.d/apache2 restart
+
+You should see something like:
+tcp 0 0 localhost:11211 *:* LISTEN 25266/memcached

@@ -50,7 +50,7 @@ from dj_static import Cling
 application = Cling(get_wsgi_application())
 
 
-Collect all static files an prepare for serving:
+Collect all static files and prepare for serving:
 $ cd site/blog
 $ sudo python ./manage.py collectstatic
 $ sudo python ./manage.py syncdb #make sure database is up to date
