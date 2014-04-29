@@ -1,7 +1,7 @@
 Jekyll cheats
 =============
 
-<h4>Load Ruby version in RVM:</h4>
+<h4>Install:</h4>
 <pre>
 $ rvm use 2.1.0
 $ gem install jekyll
