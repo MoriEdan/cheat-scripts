@@ -6,4 +6,4 @@ Drush cheats
 drush dl drupal   #installs newest version of drupal
 drush dl <module> -y 
 drush cc  #clear cache
-</pre
+</pre>
