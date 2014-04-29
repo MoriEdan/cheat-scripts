@@ -43,16 +43,16 @@ $ git clone https://github.com/Keyamoon/IcoMoon--limited-.git #icomoon
 <pre>
 $ nano _layouts/default.html
 add to the file:
-"<script src="{{ site.url }}/js/bootstrap.js"></script>"
-"<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>"
+<\script src="{{ site.url }}/js/bootstrap.js"></script\>
+<\script src="http://code.jquery.com/jquery-1.10.1.min.js"></script\>
 </pre>
 
 <h4>Enable Bootstrap & Font Awesome CSS files:</h4>
 <pre>
 $ nano _includes/header.html
 add to the file:
-"<link rel="stylesheet" href="{{ site.url }}/css/bootstrap.css">"
-"<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">"
+<\link rel="stylesheet" href="{{ site.url }}/css/bootstrap.css\>
+<\link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet"\>
 </pre>
 
 <h4>Generate site:</h4>
