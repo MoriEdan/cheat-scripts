@@ -1,13 +1,13 @@
 Jekyll cheats
 =============
 
-<h3>Load Ruby version in RVM:</h3>
+<h4>Load Ruby version in RVM:</h4>
 <pre>
 $ rvm use 2.1.0
 $ gem install jekyll
 </pre>
 
-<h3>Configure yaml file:</h3>
+<h4>Configure yaml file:</h4>
 <pre>
 $ nano _config.yml
 #add the following:
@@ -15,14 +15,14 @@ name: site name
 markdown: redcarpet
 </pre>
 
-<h3>File Structure setup:</h3>
+<h4>File Structure setup:</h4>
 <pre>
 $ mkdir _includes #headers and footers
 $ mkdir _layouts #used in themes
 $ mkdir _posts
 </pre>
 
-<h3>Download Bootstrap:</h3>
+<h4>Download Bootstrap:</h4>
 <pre>
 $ git clone https://github.com/twbs/bootstrap.git
 # move bootstrap-theme.css, bootstrap-theme.min.css, bootstrap.css, bootstrap.min.css to the /css folder
