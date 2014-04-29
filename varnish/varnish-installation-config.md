@@ -25,7 +25,7 @@ Listen 8080
 
 $ nano /etc/apache2/sites-available/...
 # change:
-<VirtualHost *:8080>
+&lt;VirtualHost *:8080&gt;
 
 $ service apache2 restart
 $ service varnish restart
@@ -43,4 +43,4 @@ $ service varnish restart
 $ iptables -I PREROUTING -t nat -i eth0 -p tcp --dport 80 -j REDIRECT --to-port 6081.
 </pre>
 
-verify that www.site.com/6081 is caching: http://www.isvarnishworking.com/
+verify that /6081 is caching: http://www.isvarnishworking.com/
