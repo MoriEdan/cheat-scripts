@@ -54,14 +54,14 @@ $ nano _includes/header.html
 
 <h4>Generate site:</h4>
 <pre>
-$ jekyll build #generates sites at ./_site
+$ jekyll build    #generates sites at ./_site
 </pre>
 
 <h4>Serve to Localhost:</h4>
 <pre>
-$ jekyll serve #serves to localhost:4000
+$ jekyll serve    #serves to localhost:4000
 or
-$ jekyll serve --watch #serves to localhost:4000 and regenerates for changes
+$ jekyll serve --watch    #serves to localhost:4000 and regenerates for changes
 </pre>
 
 <h4>If localhost:4000 socket stays open:</h4>
