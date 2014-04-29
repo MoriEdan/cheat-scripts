@@ -1,7 +1,8 @@
 Docker cheats
+=============
 
 
-Docker Commands:
+<h4>Docker Commands:
 
 docker images #lists all images 
 docker ps # lists running docker processes
