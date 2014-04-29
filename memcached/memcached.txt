@@ -2,6 +2,8 @@ Memcached installation cheats
 
 $ apt-get update
 $ apt-get install build-essential
+$ apt-get install apache2 
+$ apt-get install libapache2-mod-php5
 $ apt-get install php5-gd 
 $ apt-get install php5-memcache 
 $ apt-get install memcached 
