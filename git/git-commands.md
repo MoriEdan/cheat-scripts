@@ -62,6 +62,10 @@ $ git push origin master
 </pre>
 
 
-
+<h4>Push Default message</h4>
+#gets rid of simple push error message
+<pre>
+$ git config --global push.default simple
+</pre>
 
 
