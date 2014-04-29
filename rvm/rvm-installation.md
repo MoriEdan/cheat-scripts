@@ -1,18 +1,24 @@
-RVM (ruby version manager) install cheat
+RVM (ruby version manager) cheats
+=================================
 
-Install RVM: 
+<h4>Install RVM:</h4>
+<pre>
 $ \curl -sSL https://get.rvm.io | bash -s stable --ruby
-
-Add to bash_profile and then source:
+$ nano ~/.bash_profile 
+# Add to file and source:
 [[ -s "$HOME/.profile" ]] && source "$HOME/.profile" # Load the default .profile
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
 
-Install Ruby in RVM:
+
+<h4>Install Ruby in RVM:</h4>
+<pre>
 $ rvm install 2.1.0
+</pre>
 
 
-Remove RVM:
+<h4>Remove RVM:</h4>
+<pre>
 $ rvm implode
 $ gem uninstall rvm
 # remove environment variables in bash_profile
-
+</pre>
