@@ -28,7 +28,7 @@ $ apt-get -y install libapache2-mod-qos
 $ nano /etc/apache2/mods-available/qos.conf
 # edit the file:
 ## QoS Settings
-<IfModule mod_qos.c>
+&lt;IfModule mod_qos.c&gt;
     # handles connections from up to 100000 different IPs
     QS_ClientEntries 100000
     # will allow only 50 connections per IP
@@ -44,7 +44,7 @@ $ nano /etc/apache2/mods-available/qos.conf
     # post requests too):
     # LimitRequestFields      30
     # QS_LimitRequestBody     102400
-</IfModule>
+&lt;/IfModule&gt;
 </pre>
 test with nmpa slowloris checking tool: http://nmap.org/nsedoc/scripts/http-slowloris-check.html
 
@@ -60,7 +60,7 @@ Include mods-enabled/*.load
 Include mods-enabled/*.conf
 
 # add this script underneath module configuration
-<IfModule mod_evasive20.c>
+&lt;IfModule mod_evasive20.c&gt;
 DOSHashTableSize    3097
 DOSPageCount        2
 DOSSiteCount        50
@@ -68,25 +68,25 @@ DOSPageInterval     1
 DOSSiteInterval     1
 DOSBlockingPeriod   60
 DOSEmailNotify user@gmail.com
-</IfModule>
+&lt;/IfModule&gt;
 
 $ service apache2 restart
 </pre>
 
 <h4>Spam bot attack prevention</h4>
-<pre> 
+<pre>
 $ apt-get -y install libapache2-mod-spamhaus
 $ touch /etc/spamhaus.wl
 # add to the file:
-<IfModule mod_spamhaus.c>
+&lt;IfModule mod_spamhaus.c&gt;
   MS_METHODS POST,PUT,OPTIONS,CONNECT 
   MS_WhiteList /etc/spamhaus.wl 
   MS_CacheSize 256 
-</IfModule>
+&lt;/IfModule&gt;
 
 $ service apache2 restart
 $ tail -200 /var/log/syslog
-
+</pre>
 
 <h4>Timestamping Correction</h4>
 <pre>
