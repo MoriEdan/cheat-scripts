@@ -12,7 +12,7 @@ $ update-java-alternatives --jre -s java-1.7.0-openjdk-i386   #for 32 bit
 $ update-java-alternatives --jre -s java-1.7.0-openjdk-amd64  #for 64 bit
 </pre>
 
-<h4>Launch Armitage</h4>
+<h4>Launch Armitage:</h4>
 <pre>
 $ service postgresql start
 $ armitage
