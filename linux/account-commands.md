@@ -29,7 +29,7 @@ $ rmuser  uname   #remove user
 <pre>
 $ sudo visudo
 # add to the file:
-<your_user_name> ALL=(ALL) ALL
+username ALL=(ALL) ALL
 </pre>
 
 
