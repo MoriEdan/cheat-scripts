@@ -2,8 +2,8 @@ Armitage cheats
 ==============
 
 <h4>Install:</h4>
-#for Kali Linux
 <pre>
+#for Kali Linux
 $ apt-get update
 $ apt-get intall armitage
 $ service metasploit start	#creates yml file
