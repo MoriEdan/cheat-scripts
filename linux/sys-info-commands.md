@@ -38,6 +38,7 @@ $ cat /etc/*syslog*.conf | grep -v “^#”   #list of logfiles
 </pre>
 
 <h4>Shell</h4>
+<pre>
 $ history   #view users shell command history
 $ !5    #executes line 5 in history
 $ script -a test   #record shell input, output to file “test", ctl + d to stop 
