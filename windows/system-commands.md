@@ -1,4 +1,4 @@
-Linxu system commmands cheats
+Linux system commmands cheats
 =============================
 
 NT 5.1 XP<br>
@@ -27,7 +27,7 @@ findstr /si password * .txt | *.xml | *.xls   #search certain file types for pas
 tree /F /A c:\ > directory.txt   #exports full directroy tree of C:\
 
 reg save HKLM\Security security.hive   #dumps security hive
-</pr>
+</pre>
 
 <h4>Networking Commands</h4>
 <pre>
