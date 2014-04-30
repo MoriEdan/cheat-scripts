@@ -36,3 +36,21 @@ iptables -A OUTPUT -o eth0 -p tcp --sport 80 -m state --state ESTABLISHED -j ACC
 iptables -A INPUT -i lo -j ACCEPT
 iptables -A OUTPUT -o lo -j ACCEPT
 </pre>
+
+<h4>DoS Prevention</h4>
+<pre>
+iptables -A INPUT -p tcp --dport 80 -m limit --limit 25/minute --limit-burst 100 -j ACCEPT
+</pre>
+
+
+
+
+
+
+
+
+
+
+
+
+
