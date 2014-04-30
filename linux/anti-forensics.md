@@ -10,5 +10,6 @@ echo "" > /~.bash_history   #clear bash history of current user
 rm ~/.bash_history -rf   #delete bash history file
 history -c   #clear current session history
 ln /dev/null ~/.bash_history -sf   #permantly send all bash history commands to dev null
+shred -f -u file    #overwrite and delete file
 </pre>
 
