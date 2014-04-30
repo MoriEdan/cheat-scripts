@@ -1,4 +1,4 @@
-Linux system commmands cheats
+Windows system commmands cheats
 =============================
 
 NT 5.1 XP<br>
