@@ -24,3 +24,27 @@ $ addgroup hadoop    #add user group
 $ adduser --ingroup hadoop hduser    #add user and then add user to group
 $ rmuser  uname   #remove user
 </pre>
+
+<h4>Add user to Sudoers</h4>
+<pre>
+$ sudo visudo
+# add to the file:
+<your_user_name> ALL=(ALL) ALL
+</pre>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
