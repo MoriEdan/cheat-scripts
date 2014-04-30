@@ -31,3 +31,14 @@ $ fdisk - l   #list attached drives
 $ mount /dev/sda1  /mnt/usbkey   #mount usb drive that doesnt auto mount
 </pre>
 
+
+<h4>Log Files</h4>
+<pre>
+$ cat /etc/*syslog*.conf | grep -v “^#”   #list of logfiles
+</pre>
+
+<h4>Shell</h4>
+$ history   #view users shell command history
+$ !5    #executes line 5 in history
+$ script -a test   #record shell input, output to file “test", ctl + d to stop 
+</pre>
