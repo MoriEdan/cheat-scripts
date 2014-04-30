@@ -45,7 +45,10 @@ $ /etc/init.d/procps.sh restart
 </pre>
 
 
-
+<h4>TCP Dump</h4>
+<pre>
+tcpdump -i eth0 -XX -w dump.pcap   #capture packets in ascii and hex 
+</pre>
 
 
 
