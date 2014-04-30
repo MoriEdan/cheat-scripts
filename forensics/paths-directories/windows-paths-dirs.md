@@ -1,6 +1,14 @@
 Windows paths and directories cheats
 ====================================
 
+<p>
+NT 5.1 XP<br>
+NT 5.2 XP 64bit, Server 2003 and R2<br>
+NT 6.0 Vista, Server 08<br>
+NT 6.1 Windows 7, Server 08 r2<br>
+NT 6.2 Windows 8, Server 2012<br>
+</p>
+
 <h4>Event logs:</h4>
 <pre>
 C:\Windows\System32\Config #XP
