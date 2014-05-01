@@ -19,7 +19,6 @@ $ ifconfig wlan0 up
 $ dig -x 64.141.178.194    #domain lookup
 $ dig @64.141.178.194 domain -t AXFR    #zone transfer
 $ echo "nameserver 8.8.8.8" > /etc/resolv.conf    #add dns server
-
 </pre>
 
 <h4>tcpkill</h4>
@@ -45,18 +44,14 @@ $ /etc/init.d/procps.sh restart
 </pre>
 
 
-<h4>TCP Dump</h4>
+<h4>Packet Manipulation</h4>
 <pre>
-tcpdump -i eth0 -XX -w dump.pcap   #capture packets in ascii and hex 
+$ tcpdump -i eth0 -XX -w dump.pcap   #capture packets in ascii and hex 
+$ tcpdump -nvvX -s0 -i  eth0 tcp portrange 22-23   #capture tcp traffic on ports 22/23
+$ dumpcap -I eth0 -a duration:30 -w file dump.pcap   #capture packets for 30 and dump to file
+$ file2cable -i eth0 -f dump.pcap   #replay pcap from file
+$ tcpreplay --topspeed --loop=0 --intf=eth0 dump.pcap --mbps=10|100|1000   #fuzz, dos from file
 </pre>
-
-
-
-
-
-
-
-
 
 
 
