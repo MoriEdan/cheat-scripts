@@ -14,6 +14,16 @@ $ ifconfig wlan0 hw ether 00:00:00:00:00:00
 $ ifconfig wlan0 up
 </pre>
 
+<h4>Configure adapters for Host-only network</h4>
+<pre>
+cd /etc/network
+nano interfaces
+# add to the file
+auto eth1
+iface eth1  inet dhcp
+</pre>
+
+
 <h4>DNS commands</h4>
 <pre>
 $ dig -x 64.141.178.194    #domain lookup
@@ -52,6 +62,5 @@ $ dumpcap -I eth0 -a duration:30 -w file dump.pcap   #capture packets for 30 and
 $ file2cable -i eth0 -f dump.pcap   #replay pcap from file
 $ tcpreplay --topspeed --loop=0 --intf=eth0 dump.pcap --mbps=10|100|1000   #fuzz, dos from file
 </pre>
-
 
 
