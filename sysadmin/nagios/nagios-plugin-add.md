@@ -1,4 +1,5 @@
 Nagios Plugin configuration cheats
+==================================
 
 <h4>Host configuration</h4>
 <pre>
