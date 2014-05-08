@@ -20,7 +20,7 @@ define service {
 $ etc/nagios/nrpe.cfg
 # add to the file:
 command[check_all_disks]=/usr/lib/nagios/plugins/check_disk -w 20% -c 10% -e
-<pre>
+</pre>
 
 <h4>Restart services</h4>
 <pre>
