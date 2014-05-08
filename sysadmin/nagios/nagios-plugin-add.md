@@ -14,6 +14,7 @@ define service {
         check_command                   check_nrpe_1arg!check_all_disks!client_ipaddress
         
 }
+</pre>
 
 <h4>Client configuration</h4>
 <pre>
