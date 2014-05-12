@@ -13,7 +13,7 @@ $ apt-get -y install puppet
 <pre>
 $ nano /etc/hosts
 # add to the file
-server_ip_address    puppet_master
+server_ip_address    master_host_name
 </pre>
 
 <h4>Configure Puppet Client</h4>
@@ -21,7 +21,7 @@ server_ip_address    puppet_master
 $ nano /etc/puppet/puppet.conf
 # add to the file:
 [main]
-server = puppet_master
+server = master_host_name
 
 $ nano /etc/default/puppet
 # add to the file:
