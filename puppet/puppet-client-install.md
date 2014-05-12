@@ -13,7 +13,7 @@ $ apt-get -y install puppet
 <pre>
 $ nano /etc/hosts
 # add to the file
-170.170.30.20    puppet_master
+server_ip_address    puppet_master
 </pre>
 
 <h4>Configure Puppet Client</h4>
