@@ -19,7 +19,7 @@ $ nano /etc/puppet/puppet.conf
 certificate_revocation = false
 
 [agent]
-server = puppet_master
+server = master_host_name
 report = true
 pluginsync = true
 certname = your_cert_name
