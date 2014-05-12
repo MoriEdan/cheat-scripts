@@ -22,6 +22,7 @@ $ nano /etc/puppet/manifests/site.pp
 <h4>Node file</h4>
 <pre>
 $ nano /etc/puppet/manifests.node.pp
+
 # add to the file:
 node host_name {
 include mysql
