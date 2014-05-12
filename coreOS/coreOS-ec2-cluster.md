@@ -36,7 +36,7 @@ coreos:
 SSH: Source: 0.0.0.0/0
 Custom TCP Rule: Port Range: 7001 Source: your_security_group_id
 Custom TCP Rule: Port range: 4001 Source: your_security_group_id
-</pre
+</pre>
 
 
 <h4>Connect to the Instances</h4>
