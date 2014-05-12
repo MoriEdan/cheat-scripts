@@ -22,9 +22,9 @@ $ nano /etc/puppet/puppet.conf
 # add to the file:
 [main]
 server = puppet_master
-</pre>
 
 $ nano /etc/default/puppet
 # add to the file:
 START=yes
 $ service puppet restart
+</pre>
