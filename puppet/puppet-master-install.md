@@ -16,13 +16,7 @@ $ apt-get update && sudo apt-get -y install puppetmaster
 $ nano /etc/puppet/puppet.conf
 # add to the file
 [main]
-certificate_revocation = false
-
-[agent]
 server = master_host_name
-report = true
-pluginsync = true
-certname = your_cert_name
 
 $ service puppetmaster stop
 $ rm -rf /var/lib/puppet/ssl
