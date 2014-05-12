@@ -14,7 +14,6 @@ Change number of clusters to 3
 # Add to the User Data form:
 
 #cloud-config
-
 coreos:
   etcd:
     # generate a new token from https://discovery.etcd.io/new
