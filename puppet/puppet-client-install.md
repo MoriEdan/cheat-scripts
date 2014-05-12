@@ -26,5 +26,6 @@ server = puppet_master
 $ nano /etc/default/puppet
 # add to the file:
 START=yes
+
 $ service puppet restart
 </pre>
