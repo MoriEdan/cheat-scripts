@@ -19,9 +19,15 @@ server_ip_address    master_host_name
 <h4>Configure Puppet Client</h4>
 <pre>
 $ nano /etc/puppet/puppet.conf
-# add to the file:
+# add to the file
 [main]
+certificate_revocation = false
+
+[agent]
 server = master_host_name
+report = true
+pluginsync = true
+certname = your_cert_name
 
 $ nano /etc/default/puppet
 # add to the file:
