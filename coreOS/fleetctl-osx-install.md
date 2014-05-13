@@ -28,5 +28,6 @@ $ export FLEETCTL_TUNNEL=coreOS_ip_address
 $ ssh-add ~/.ssh/your_cert.pem
 
 <h4>Fleetctl Commands</h4>
+<pre>
 $ fleetctl list-machines
 </pre>
