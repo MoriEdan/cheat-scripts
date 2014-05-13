@@ -35,9 +35,4 @@ $ fleetctl list-units
 $ fleetctl submit name.service
 $ fleetctl start name.service
 $ fleetctl destroy name.service
-
-
-
-
-
 </pre>
