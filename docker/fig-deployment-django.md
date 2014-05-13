@@ -77,6 +77,11 @@ $ fig run web python manage.py syncdb
 go to your_ip_address:8000
 go to admin console your_ip_address:8000/admin
 
+<h4>Check containers</h4>
+<pre>
+$ fig ps
+$ docker ps
+</pre>
 
 
 
