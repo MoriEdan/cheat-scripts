@@ -70,6 +70,11 @@ $ fig up -d   #run in background
 $ fig run web python manage.py syncdb
 </pre>
 
+<h4>Open Port</h4>
+<pre>
+$ iptables -A INPUT -p tcp -m tcp --dport 5000 -j ACCEPT
+</pre>
+
 go to your_ip_address:5000
 
 <h4>Check containers</h4>
