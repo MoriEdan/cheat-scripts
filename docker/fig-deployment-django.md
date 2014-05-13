@@ -44,7 +44,7 @@ web:
     - db
 </pre>
 
-<h4>Build the project</h4
+<h4>Build the project</h4>
 <pre>
 $ fig run web django-admin.py startproject django-project .
 </pre>
