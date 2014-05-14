@@ -27,7 +27,7 @@ command[check_memory]=/usr/lib/nagios/plugins/check_memory.sh -w 85 -c 90
 <h4>Add shell script</h4>
 <pre>
 $ nano /usr/lib/nagios/plugins/check_memory.sh
-add to the file: 
+# add to the file: 
 
 #!/bin/bash
 #
