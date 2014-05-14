@@ -93,7 +93,10 @@ elif [ "$result" -gt "$critical_level" ]; then
     echo "Memory CRITICAL. $result% used."
     exit 2;
 fi
+</pre>
 
+<h4>Make Executable</h4>
+<pre>
 $ chmod a+x check_memory.sh
 </pre>
 
