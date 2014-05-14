@@ -14,7 +14,6 @@ service_description     Memory Usage
 check_command           check_nrpe_1arg!check_memory
 }
         
-}
 </pre>
 
 <h4>Client configuration</h4>
