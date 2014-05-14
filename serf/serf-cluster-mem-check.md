@@ -53,8 +53,9 @@ $ serf join node1_ipaddress:7496
 $ serf event memory
 </pre>
 
-<h4>Check Event</h4>
+<h4>Check Event File</h4>
 <pre>
+# on node 2
 $ nano mem.txt
 </pre>
 
