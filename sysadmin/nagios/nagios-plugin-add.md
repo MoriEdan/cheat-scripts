@@ -18,7 +18,7 @@ define service {
 
 <h4>Client configuration</h4>
 <pre>
-$ etc/nagios/nrpe.cfg
+$ /etc/nagios/nrpe.cfg
 # add to the file:
 command[check_all_disks]=/usr/lib/nagios/plugins/check_disk -w 20% -c 10% -e
 </pre>
@@ -26,7 +26,7 @@ command[check_all_disks]=/usr/lib/nagios/plugins/check_disk -w 20% -c 10% -e
 <h4>Restart services</h4>
 <pre>
 # on client
-$ etc/init.d/nagios-nrpe-server restart
+$ /etc/init.d/nagios-nrpe-server restart
 # on host
 $ service nagios3 restart
 </pre>
