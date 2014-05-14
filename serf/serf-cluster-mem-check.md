@@ -49,6 +49,7 @@ $ serf join node1_ipaddress:7496
 
 <h4>Trigger Event</h4>
 <pre>
+# on node 2
 $ serf event memory
 </pre>
 
