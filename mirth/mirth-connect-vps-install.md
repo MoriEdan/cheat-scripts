@@ -29,6 +29,3 @@ user: admin<br>
 pwd: admin<br>
 Complete registration form and change pwd<br>
 </p>
-
-
-
