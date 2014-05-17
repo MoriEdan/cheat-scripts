@@ -1,7 +1,7 @@
-Mirth Connect install cheats
+Mirth Connect VPS install cheats
 ===================================
 
-<h4>Mirth Server Ubuntu Installation</h4>
+<h4>Mirth Server VPS Ubuntu Installation</h4>
 <pre>
 $ apt-get update
 $ apt-get install openjdk-7-jdk
