@@ -1,4 +1,4 @@
-MySql Mirth Connect database configuration cheats
+MySql Mirth Connect db configuration cheats
 ===========================================
 
 <h4>MySql Installation</h4>
