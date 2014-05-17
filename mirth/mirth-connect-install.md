@@ -13,6 +13,7 @@ $ tar -zxvf mirth.tar.gz -C /opt
 <pre>
 $ cd /opt/Mirth\ Connect/
 $ ./mcservice start
+</pre>
 
 <h4>Get jnlp File</h4>
 <p>
