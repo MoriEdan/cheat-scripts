@@ -1,7 +1,7 @@
-Mirth Connect Ubuntu install cheats
+Mirth Connect install cheats
 ===================================
 
-<h4>Installation</h4>
+<h4>Mirth Server Ubuntu Installation</h4>
 <pre>
 $ apt-get update
 $ apt-get install openjdk-7-jdk
@@ -29,17 +29,6 @@ user: admin<br>
 pwd: admin<br>
 Complete registration form and change pwd<br>
 </p>
-
-
-
-
-
-
-
-
-
-
-
 
 
 
