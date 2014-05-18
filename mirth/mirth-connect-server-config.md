@@ -15,7 +15,7 @@ Set LLP listener mode to accept incoming HL7 messages<br>
 Select Destinations tab<br>
 Choose Database Writer Connector Type<br>
 Change Driver to MySql<br>
-Set URL field to jdbc:mysql://localhost:3306/mirthdb
+Set URL field to jdbc:mysql://localhost:3306/mirthdb<br>
 Set Username to mirthdb MySQL Username<br>
 Set Password to mirthdb MySQL Password<br>
 Set Use Javascript to Yes<br>
