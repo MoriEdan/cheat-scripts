@@ -43,6 +43,7 @@ OBR: Observation Request
 OBX: Observation Results
 ORU: Lab Results
 DFT: Charges
+ACK: Acknowledgement
 </pre>
 </p>
 
