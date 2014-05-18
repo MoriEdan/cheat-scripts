@@ -19,6 +19,6 @@ MSA|AA|ADT.1.1698593|
 ACK Modes:
 <pre>
 AA: Postiive ACK
-AE: Negative ACK
-AR: Negative ACK
+AE: Negative ACK; Application Error
+AR: Negative ACK; Application Reject; Problem with composite 9,11,12 of the MSH segment or with receiving application
 </pre>
