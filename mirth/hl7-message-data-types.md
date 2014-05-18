@@ -1,7 +1,6 @@
 HL7 message data type cheats
 ============================
 <pre>
-HL7 Data Type Summary
 DG1 : Diagnosis Information
 EVN : Event Information
 FT1 : Charge Information
