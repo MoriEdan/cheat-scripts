@@ -28,7 +28,7 @@ Select Message Templates tab<br>
 Paste an HL7 message into the form box<br>
 Select Message Trees tab to view the values that can be saved to the database<br>
 Drag the values that you need to save into the box to the left<br>
-This creating mapping variables for use later with scripts<br>
+This creates mapping variables for use later with scripts<br>
 
 <h4>Create Script to run on message</h4>
 Select Back to Channel<br>
