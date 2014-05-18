@@ -39,8 +39,6 @@ message type would be ADT^A04 or a  "Register Patient" message
 <pre>
 ADT: Patient Administration
 ORM: Orders
-OBR: Observation Request
-OBX: Observation Results
 ORU: Lab Results
 DFT: Charges
 ACK: Acknowledgement
