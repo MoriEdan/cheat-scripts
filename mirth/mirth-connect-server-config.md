@@ -23,6 +23,25 @@ Set Use Javascript to Yes<br>
 
 <H4>Create Transformer Templates</h4>
 <p>
+Under Channel Tasks select Edit Transformer<br>
+Select Message Templates tab<br>
+Paste an HL7 message into the form box<br>
+Select Message Trees tab to view the values that can be saved to the database<br>
+Drag the values that you need to save into the box to the left<br>
+This creating mapping variables for use later with scripts<br>
+
+<h4>Create Script to run on message</h4>
+Select Back to Channel<br>
+Connection variable (var dbConn) should already be created<br>
+dbConn.close() function should already be present<br>
+Create variables using the mappings created in the templates:<Br>
+<pre>
+var patientalias = $('patientIdentification_patientAlias');
+var patientbirthOrder = $('patientIdentification_birthOrder');
+var patientmilitaryStatus = $('patientIdentification_veteransMilitaryStatus');
+var patientsecurity = $('messageHeader_security');
+</pre>
+
 
 
 
