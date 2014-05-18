@@ -3,8 +3,11 @@ Mirth Connect VPS install cheats
 
 <h4>Mirth Server VPS Ubuntu Installation</h4>
 <pre>
+$ add-apt-repository ppa:webupd8team/java
 $ apt-get update
-$ apt-get install openjdk-7-jdk
+$ apt-get install oracle-java8-installer   #openjdk-7-jdk has a bug that was only fixed with java 8
+$ apt-get install oracle-java8-set-default
+$ java -version    #ensure that its showing 1.8.0
 $ wget http://downloads.mirthcorp.com/connect/2.2.3.6825.b80/mirthconnect-2.2.3.6825.b80-unix.tar.gz -O mirth.tar.gz
 $ tar -zxvf mirth.tar.gz -C /opt
 </pre>
