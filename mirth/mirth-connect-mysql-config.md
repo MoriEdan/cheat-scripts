@@ -23,6 +23,8 @@ mysql> quit;
 $ ./mcservice stop
 $ top   #find pid for mcserver 
 $ kill -SIGKILL pid
+$ fuser 8080/tcp   #find what pid is listening on this port
+$ kill -SIGKILL pid
 $ cd /opt/Mirth\ Connect/conf
 $ nano mirth.properties
 # edit in the file:
@@ -32,7 +34,7 @@ database.url = jdbc:mysql://localhost:3306/mirthdb
 database.username = mirthuser
 database.password = pass
 
-$ ./mcserver start
+$ ./mcserver &
 $ ./mcservice start
 # database schema will be created
 
