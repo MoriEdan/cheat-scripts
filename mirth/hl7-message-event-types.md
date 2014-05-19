@@ -7,8 +7,8 @@ A02 : Transfer Patient
 A03 : Discharge Patient
 A04 : Register Patient
 A05 : Preadmit Patient
-A06 : Transfer ?Outpatient to Inpatient
-A07 : Transfer ?Inpatient to Outpatient
+A06 : Transfer Outpatient to Inpatient
+A07 : Transfer Inpatient to Outpatient
 A08 : Update Patient
 A11 : Cancel Admit
 A12 : Cancel Transfer
