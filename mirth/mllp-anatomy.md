@@ -12,10 +12,10 @@ only one sender can be connected to a receiver at a time<br>
 
 <h4>MLLP Construction<h/h4>
 <pre>
-<SB> = Start Block
-<Message> = HL7 Message
-<EB> = End Block
-<CR> = Carriage Return
+SB = Start Block
+Message = HL7 Message
+EB = End Block
+CR = Carriage Return
 </pre>
 
 <h4>Default HEX values</h4>
