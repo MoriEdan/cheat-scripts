@@ -10,7 +10,7 @@ Sender: maintains persistent or transient connection<br>
 Receiver: contains singular GET command. Enters into a listening state<br>
 only one sender can be connected to a receiver at a time<br>
 
-<h4>MLLP Construction<h/h4>
+<h4>MLLP Construction</h4>
 <pre>
 SB = Start Block
 Message = HL7 Message
