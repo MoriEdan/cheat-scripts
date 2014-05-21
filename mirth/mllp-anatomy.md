@@ -20,20 +20,13 @@ CR = Carriage Return
 
 <h4>Default HEX values</h4>
 <pre>
-SB: xoB
-EB: x1C
-CR: \r
+SB: VT character; 11 decimal; 0013 oct; x0b hex;
+EB: FS character; 28 decimal; 0034 oct; x1c hex;
+CR: CR character; 13 decimal; 0015 oct; x0d hex;
 </pre>
 
 Permanant Connection: Only one connection used to exchange all messages<br>
 Transient Connection: New Socket is created for each message. Socket is closed after the ACK is received.<br> 
-
-
-
-
-
-
-
 
 
 
