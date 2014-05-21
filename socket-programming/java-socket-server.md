@@ -63,7 +63,9 @@ public static void main(String [] args)
       {
          Thread t = new socketServer(port);
          t.start();
-      }catch(IOException e)
+      }
+      
+      catch(IOException e)
       {
          e.printStackTrace();
       }
