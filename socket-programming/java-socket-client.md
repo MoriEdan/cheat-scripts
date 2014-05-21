@@ -29,7 +29,8 @@ import java.io.*;
     DataInputStream dataIn = new DataInputStream(input);
 
     dataOut.writeUTF("This is your destiny from "+ socket.getLocalSocketAddress());
-    System.out.println("The path of the righteous man is beset on all sides by the iniquities of the self$
+    System.out.println("The path of the righteous man is beset on all sides by the iniquities of the selfish 
+    and the tyranny of evil men"+ dataIn.readUTF());
     socket.close();
   }
     catch(IOException e)
