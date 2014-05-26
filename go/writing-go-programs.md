@@ -79,10 +79,10 @@ $ go build github.com/your_username/formula
 package main
 import (
 	"fmt"
-	"github.com/user/newmath"
+	"github.com/user/formula"
 )
 func main() {
-	fmt.Printf("Hello, world.  Sqrt(2) = %v\n", newmath.Sqrt(2))
+	fmt.Printf("Hello, world.  Sqrt(2) = %v\n", formula.Sqrt(2))
 }
 
 </pre>
@@ -96,15 +96,3 @@ $ go install github.com/your_username/hello_world
 <pre>
 $ hello
 </pre>
-
-
-
-
-
-
-
-
-
-
-
-
