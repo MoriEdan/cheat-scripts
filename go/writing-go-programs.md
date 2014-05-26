@@ -3,9 +3,9 @@ Writing Go Programs cheats
 
 <h4>Workspaces</h4>
 <p>
-src: Go source files organized into packages<p>
-pkg: contains package objects<p>
-bin: contains executable commands<p>
+src: Go source files organized into packages<br>
+pkg: contains package objects<br>
+bin: contains executable commands<br>
 </p>
 
 <h4>Create environment variable</h4>
