@@ -43,6 +43,7 @@ or
 $ cd $GOPATH
 $ cd github.com/your_username/hello_world
 $ go install
+</pre>
 
 <h4>Run Program</h4>
 <pre>
