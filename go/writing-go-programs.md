@@ -8,15 +8,20 @@ pkg: contains package objects<br>
 bin: contains executable commands<br>
 </p>
 
-<h4>Create environment variable</h4>
+<h4>Create Workspace</h4>
 <pre>
 $ cd ~
 $ mkdir go
+</pre>
+
+<h4>Create environment variable</h4>
+<pre>
 $ export GOPATH = $HOME/go
 $ export PATH=$PATH:$GOPATH/bin
 </pre>
 
 <h4>Sample Program</h4>
+<pre>
 $ cd $GOPATH
 $ mkdir src/github.com/your_username/hello_world
 $ nano hello.go
