@@ -21,4 +21,6 @@ export GOPATH="$HOME/workspace"
 export PATH=$PATH:$GOPATH/bin 
 
 $ source ~/.bash_profile
+$ go version   # test the installation
 </pre>
+
