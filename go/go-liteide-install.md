@@ -15,3 +15,9 @@ Change the following to:<br>
 GOBIN= /usr/local/go/bin<br>
 #PATH=$GOROOT/bin:$PATH<Br>
 </p>
+
+<p>
+Select View then Manage GOPATH<br>
+Add Go project path to the Custom Directory:<br>
+/Users/your_username/workspace<br>
+</p>
