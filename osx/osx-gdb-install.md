@@ -36,7 +36,7 @@ Set Keychain to System and save<br
 Go to My Certificates tab and right click and select Get Info<br>
 Expand the Trust section<br>
 Change Code Signing to Always Trust<br>
-Exit it out of keychain utility<br>
+Exit out of keychain utility<br>
 
 <h4>Sign the certificate</h4>
 <pre>
