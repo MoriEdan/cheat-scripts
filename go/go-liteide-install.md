@@ -10,7 +10,7 @@ Download from http://sourceforge.net/projects/liteide/files/latest/download?sour
 <p>
 Select View then Edit Environment<br>
 
-Change the following:<br>
+Change the following to:<br>
 #GOROOT=$HOME/go/<br>
 GOBIN= /usr/local/go/bin<br>
 #PATH=$GOROOT/bin:$PATH<Br>
