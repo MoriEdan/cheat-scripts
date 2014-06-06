@@ -5,6 +5,7 @@ Linux file management cheats
 <pre>
 $ pwd      #returns current working directory
 $ ls       #returns directory contents
+$ ll       #same as ls -al, returns detailed list of contents
 $ ls -al   #returns detailed list of directory contents
 
 $ cp -R folder1 folder2   #recursively copy all contents from one folder to another
