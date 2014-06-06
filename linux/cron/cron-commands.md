@@ -2,7 +2,7 @@ Cron & Crontab cheats
 =====================
 
 <p>
-Locations:
+Locations:<br>
 /etc/crontab   #editable only by root<br>
 /var/spool/cron   #location of user cron<br>
 /var/log/syslog   #location of cron logs in ubuntu<br>
