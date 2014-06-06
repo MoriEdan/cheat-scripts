@@ -1,5 +1,14 @@
-Linux file mgmt cheats
+Linux file management cheats
 ======================
+
+<h4>Directory commands</h4>
+<pre>
+$ pwd      #returns current working directory
+$ ls       #returns directory contents
+$ ls -al   #returns detailed list of directory contents
+
+$ cp -R folder1 folder2   #recursively copy all contents from one folder to another
+</pre>
 
 <h4>File Commands</h4>
 <pre>
@@ -10,18 +19,6 @@ $ sha1sum   #sha1 hash of file
 $ find / -name string   #find string or file name
 $ find -i -name file-name -type *.pdf   #find files of pdf type
 </pre>
-
-<h4>Package Commands:</h4>
-<pre>
-$ tar cf file.tar files    #create tar package
-$ tar czf file.tar.gz files  #creates tar.gz package
-$ tar cjf file.tar.bz2 files   #creates .bz2 package
-$ tar xf file.tar    #extract
-$ tar xzf file.tar.gz    #extract
-$ tar xjf file.tar.bz2    #extract
-$ zip -r filename.zip directory    #creates zip archive of the directory and sub directories
- </pre>
-
 
 <h4>dd Commands</h4>
 <pre>
