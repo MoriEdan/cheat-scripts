@@ -1,6 +1,13 @@
 Package command cheats
 ======================
 
+<h4>Repository Commands:</h4>
+<pre>
+$ apt-get update   #updates the repository
+$ apt-get upgrade  #updates all packages that are out of date
+$ apt-cache search package_name  #search for packages available in repository
+</pre>
+
 <h4>Package Commands:</h4>
 <pre>
 $ tar cf file.tar files    #create tar package
