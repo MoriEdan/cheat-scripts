@@ -10,8 +10,12 @@ $ uname -a   #kernel version
 
 <h4>Processes</h4>
 <pre>
-ps aux    #detailed list of running processes
-ps -ef    #process list
+$ ps aux    #detailed list of running processes
+$ ps -ef    #process list
+$ ps aux | grep root   #prints out all running root processes
+
+$ killall apache2   #kills all apache2 processes
+
 </pre>
 
 
