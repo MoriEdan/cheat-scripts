@@ -52,7 +52,7 @@ $ diff file1 file2   #compares the lines of two files
 $ split -l 1 file1.txt   #splits each line into a seperate file (starting with xaa)
 $ split -l 2 file1.txt   #splits every two lines into a seperate file (starting with xaa)
 $ split -b 256 file1.txt  #splits every 256 byte chunks into seperate files
-
+</pre>
 
 <h4>Various Commands</h4>
 <pre>
