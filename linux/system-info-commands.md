@@ -3,7 +3,8 @@ Linux system info command cheats
 
 <h4>Version info</h4>
 <pre>
-$ lsb_release -a   #release version
+$ cat /etc/issue   #distribution version
+$ lsb_release -a   #distribution version
 $ uname -a   #kernel version
 </pre>
 
