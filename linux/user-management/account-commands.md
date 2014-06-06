@@ -11,7 +11,7 @@ $ getent passwd    #users in the passwd database
 </pre>
 
 
-<h4>Account maintenance:</h4>
+<h4>Account switching:</h4>
 <pre>
 # all change to root
 $ sudo su 
@@ -19,13 +19,27 @@ $ sudo -s
 $ sudo -i
 
 $ su user   #change to another user
-$ passwd user    #change pwd
-$ addgroup hadoop    #add user group
-$ adduser --ingroup hadoop hduser    #add user and then add user to group
-$ rmuser  uname   #remove user
 </pre>
 
-<h4>Add user to Sudoers</h4>
+<h4>User maintenance:</h4>
+<pre>
+$ passwd user_name   #change users pwd
+$ passwd -l user_name   #lock the users account
+4 passwd -u user_name   #unlock the users account
+
+$ rmuser  uname   #remove user, but leave files
+$ userdel -r user_name   #remove user, files and home directory 
+$ cat /etc/passwd    #view password file to ensure account has been removed
+</pre>
+
+
+<h4>Group maintenance:</h4>
+<pre>
+$ addgroup group_name    #add user group
+
+</pre>
+
+<h4>Add to Sudoers</h4>
 <pre>
 $ sudo visudo
 # add to the file:
