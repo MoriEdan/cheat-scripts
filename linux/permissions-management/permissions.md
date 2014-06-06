@@ -18,7 +18,11 @@ x: execute<br>
 </p>
 
 <p>
+7: read, write, execute<br>
+6: read, write<br>
+5: read, execute<br>
 4: read<br>
+3: write, execute<br>
 2: write<br>
 1: execute<br>
 0: no permission<br>
