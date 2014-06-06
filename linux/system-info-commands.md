@@ -10,6 +10,7 @@ $ uname -a   #kernel version
 
 <h4>Processes</h4>
 <pre>
+ps aux    #detailed list of running processes
 ps -ef    #process list
 </pre>
 
