@@ -11,7 +11,7 @@ Bash exit codes:<br>
 
 <h4>Bash operators and variables<br></h4>
 <pre>
-$?   #bash environment variable that holds the exit code of the last command<br>
+$?   #bash environment variable that holds the exit code of the last command
 
 -lt (<)
 -gt (>)
