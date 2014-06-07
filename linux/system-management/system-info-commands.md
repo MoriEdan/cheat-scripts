@@ -16,6 +16,9 @@ $ ps aux | grep root   #prints out all running root processes
 
 $ killall apache2   #kills all apache2 processes
 
+$ cat /etc/proc/cpuinfo   #shows all info about cpu, flags, cache size etc
+$ cat /etc/proc/iomem    #shows all memory locations currently in use
+$ cat /etc/proc/irq    #shows all interrupts running on the system
 </pre>
 
 
