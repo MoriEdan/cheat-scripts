@@ -1,14 +1,14 @@
 Grep commmand cheats
 ====================
 <p>
-Grep Regexes<br>
+Grep regexes:<br>
 ^:    begins with<br>
 $:    ends with<br>
 [ ] : character reference<br>
 </p>
 
 <p>
-Grep exit codes<br>
+Grep exit codes:<br>
 0: successfull<br>
 1: no matches<br>
 2: syntax errors<br>
