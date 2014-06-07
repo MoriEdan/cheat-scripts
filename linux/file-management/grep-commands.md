@@ -1,11 +1,17 @@
 Grep commmand cheats
 ====================
-
 <p>
 Grep Regexes<br>
 ^:    begins with<br>
 $:    ends with<br>
 [ ] : character reference<br>
+</p>
+
+<p>
+Grep exit codes<br>
+0: successfull<br>
+1: no matches<br>
+2: syntax errors<br>
 </p>
 
 <h4>Grep patterns</h4>
