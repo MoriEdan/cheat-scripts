@@ -42,6 +42,11 @@ $ cat file1 file 2   #concatenates two files into the stdout
 $ cat file* | wc -l  #combines all files starting with 'file' and counts the number of lines
 </pre>
 
+<h4>Cut</h4>
+<pre>
+cut -f1 -d : /etc/passwd > output.txt   #cut field 1, use : as a delimiter and cretae or overwrite output.txt
+</pre>
+
 <h4>Diff</h4>
 <pre>
 $ diff file1 file2   #compares the lines of two files
