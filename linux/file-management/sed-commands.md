@@ -15,7 +15,7 @@ $ sed 's/oldstring/newstring/w new.txt' test.txt   #writes the replacements to a
 $ sed 's/oldstring/w new.txt' test.txt   #searches for oldstring and writes that to a file
 $ sed '0,/oldstring/s/newstring/' newtest.txt   #searches for the 0th (1st) intance of oldstring and replaces it
 
-$ sed 's/<[^>]*>//' test.txt
+$ sed 's/&lt[^&gt]*&gt//' test.txt
 # finds pattern starting with '<' as long as it isnt followed by '>'
 # can have anything in between '<' and '>'
 # removes the pattern from stdout
