@@ -19,7 +19,7 @@ Paste key into box and name it<br>
 
 <h4>Cat key and Pipe into VPS</h4>
 <pre>
-cat ~/.ssh/id_rsa.pub | ssh root@your_ip_address "cat >> ~/.ssh/authorized_keys"
+$ cat ~/.ssh/id_rsa.pub | ssh root@your_ip_address "cat >> ~/.ssh/authorized_keys"
 </pre>
 
 <h4>SSH Configuration File</h4>
