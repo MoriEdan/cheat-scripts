@@ -47,4 +47,8 @@ $ cd /etc/sshd_config
 PermitRootLogin without-password
 </pre>
 
-
+<h4>Restart SSH process</h4>
+<pre>
+$ ps auxw | grep ssh
+$ kill -HUP ssh_pid
+</pre>
