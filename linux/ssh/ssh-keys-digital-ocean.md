@@ -43,6 +43,7 @@ $ ssh your_host_name
 $ ssh your_host_name
 $ cd /etc/sshd_config
 # edit this line:
+
 PermitRootLogin without-password
 </pre>
 
