@@ -12,10 +12,3 @@ $ su - hduser   #change into user
 $ ssh-keygen -t rsa -P ""    #empty key, otherwise enter string inbetween ""
 </pre>
 
-
-<h4>enable SSH access on local host</h4>
-<pre>
-$ cat $HOME/.ssh/id_rsa.pub >> $HOME/.ssh/authorized_keys    #adds key fingerprint to known hosts file
-</pre>
-
-
