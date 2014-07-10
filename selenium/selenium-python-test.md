@@ -14,7 +14,7 @@ browser = webdriver.Firefox()
 browser.get('http://google.com')
 
 assert 'Google' in browser.title, "Browser title was '%s'" % browser.title
-
+</pre>
 
 <h4>Run test</h4>
 <pre>
