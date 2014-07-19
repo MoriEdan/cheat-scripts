@@ -32,28 +32,7 @@ $ git remote set-url origin https://github.com/user/repo.git
 $ git remote -v
 </pre>
 
-
-<h4>Resync .gitignore</h4>
-<pre>
-$ git rm -r --cached
-$ git add --all # or git add .
-$ git commit -m "resync"
-$ git push
-</pre>
-
-<h4>Push: </h4>
-<pre>
-$ git add --all # or git add .
-$ git commit -m "first"
-$ git push
-</pre>
- 
-<h4>Pull changes: </h4>
-<pre>
-$ git pull origin master
-</pre>
-
-<h4>Cloning:</h4>
+<h4>Cloning</h4>
 <pre>
 # clone into directory
 $ git clone https://github.com/repo.git /opt/repo-folder
@@ -63,6 +42,30 @@ $ git clone https://github.com/username/repo.git
 $ git clone git@github.com:username/repo.git
 </pre>
 
+<h4>Push</h4>
+<pre>
+$ git add --all # or git add .
+$ git commit -m "first"
+$ git push
+</pre>
+ 
+<h4>Pull changes</h4>
+<pre>
+$ git pull origin master
+</pre>
+
+<h4>Pull raw GitHub content</h4>
+<pre>
+$ curl -o https://raw.githubusercontent.com/username/path_to_file /output_path
+</pre>
+
+<h4>Resync .gitignore</h4>
+<pre>
+$ git rm -r --cached
+$ git add --all # or git add .
+$ git commit -m "resync"
+$ git push
+</pre>
 
 <h4>Push Default message</h4>
 <pre>
