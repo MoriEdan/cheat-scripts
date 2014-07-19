@@ -11,6 +11,7 @@ $ apt-get install git
 <pre>
 $ git config --global user.name your_username
 $ git config --global user.email your_email address
+$ git config --global credential.helper "cache --timeout=3600"
 </pre>
 
 <h4>View username and email</h4>
