@@ -13,9 +13,10 @@ $ git config --global user.name "username"
 $ git config --global user.email "user@gmail.com"
 </pre>
 
-<h4>View Username:</h4>
+<h4>View username and email</h4>
 <pre>
 $ git config user.name
+$ git config user.email
 </pre>
 
 <h4>Remote Origin:</h4>
