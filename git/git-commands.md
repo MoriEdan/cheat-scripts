@@ -9,8 +9,8 @@ $ apt-get install git
 
 <h4>Identity Configuration:</h4>
 <pre>
-$ git config --global user.name "username"
-$ git config --global user.email "user@gmail.com"
+$ git config --global user.name your_username
+$ git config --global user.email your_email address
 </pre>
 
 <h4>View username and email</h4>
