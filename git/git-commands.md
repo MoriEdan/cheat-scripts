@@ -19,13 +19,13 @@ $ git config user.name
 $ git config user.email
 </pre>
 
-<h4>Remote Origin:</h4>
+<h4>HTTPS Remote Origin:</h4>
 <pre>
 # adding remote origin
 $ git remote add origin https://github.com/user/repo.git
 
 # reset remote origin
-$ git remote set-url origin git://new.url.here
+$ git remote set-url origin https://github.com/user/repo.git
 
 # view remotes
 $ git remote -v
@@ -47,19 +47,19 @@ $ git commit -m "first"
 $ git push
 </pre>
  
+<h4>Pull changes: </h4>
+<pre>
+$ git pull origin master
+</pre>
+
 <h4>Cloning:</h4>
 <pre>
 # clone into directory
 $ git clone https://github.com/repo.git /opt/repo-folder
-</pre>
-
-<h4>Add Existing Repo to Github: </h4>
-<pre>
-$ git init
-$ git add --all
-$ git commit -m "adding new"
-$ git remote add origin https://github.com/user/repo.git
-$ git push origin master
+# clone with HTTPS
+$ git clone https://github.com/username/repo.git
+# clone with SSH
+$ git clone git@github.com:username/repo.git
 </pre>
 
 
