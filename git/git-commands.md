@@ -54,7 +54,7 @@ $ git push
 $ git pull origin master
 </pre>
 
-<h4>Pull raw GitHub content</h4>
+<h4>Clone raw GitHub content</h4>
 <pre>
 $ curl -o https://raw.githubusercontent.com/username/path_to_file /output_path
 </pre>
