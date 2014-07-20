@@ -37,7 +37,7 @@ docker top container_id   #shows running processes in container
 
 <h4>Ports:</h4>
 <pre>
-docker port container_name port_number
+docker port container_name port_number   #shows process id associated with a port
 </pre>
 
 <h4>Destructive Commands:</h4>
