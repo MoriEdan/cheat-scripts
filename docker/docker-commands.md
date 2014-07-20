@@ -28,8 +28,21 @@ sudo docker run -d -t -p 80:80 ubuntu /start.sh #run daemonized and expose port 
 docker commit 36e9e0129149 ubuntu-test  #commits container to image
 </pre>
 
+<h4>Logging:</h4>
+<pre>
+docker logs container_name
+docker logs -f container_name   #similar to tail -f
+docker top container_id   #shows running processes in container
+</pre>
+
+<h4>Ports:</h4>
+<pre>
+docker port container_name port_number
+</pre>
+
 <h4>Destructive Commands:</h4>
 <pre>
 sudo docker ps -a -q | sudo xargs docker rm   #removes all containers
+docker rmi image_id   #removes single image
 sudo docker rmi `sudo docker images -q`   #removes all images
 </pre>
