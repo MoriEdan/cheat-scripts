@@ -41,7 +41,7 @@ $ ssh your_host_name
 <h4>Remove password login</h4>
 <pre>
 $ ssh your_host_name
-$ cd /etc/sshd_config
+$ cd /etc/ssh/sshd_config
 # edit this line:
 
 PermitRootLogin without-password
