@@ -71,6 +71,7 @@ $ ls -al /var/www/yourrsite.com
 </pre>
 
 <h4>check mysql</h4>
+<pre>
 $ netstat -plunt | grep mysql 
 
 </pre>
