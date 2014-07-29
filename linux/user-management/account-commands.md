@@ -52,6 +52,15 @@ user_name ALL=(ALL) ALL   #adds user to sudoers
 group_name ALL=(ALL) ALL   #adds group and all of its users to sudoers
 </pre>
 
+<h4>Manage User Processes</h4>
+<pre>
+$ nano /etc/security/limits.conf
+# edit the file and change the user's max number of allowable proceses
+# hard prevents anymore than limit
+# soft warns anymore than limit
+bob hard nproc 25
+tom soft nproc 30
+</pre>
 
 
 
