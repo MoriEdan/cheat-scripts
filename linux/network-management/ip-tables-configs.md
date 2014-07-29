@@ -42,6 +42,11 @@ iptables -A OUTPUT -o lo -j ACCEPT
 iptables -A INPUT -p tcp --dport 80 -m limit --limit 25/minute --limit-burst 100 -j ACCEPT
 </pre>
 
+<h4>Ignore Ping and ICMP traffic</h4>
+<pre>
+$ iptables  -I  INPUT  -i  ech0  -p   icmp  -s  0/0  -d  0/0   -j  DROP
+</pre>
+
 <h4>Block Single IP</h4>
 <pre>
 $ iptables -A INPUT -s offending_ip -j DROP   #blocks IP address
