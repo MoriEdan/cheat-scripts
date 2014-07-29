@@ -14,6 +14,7 @@ $ service apache2 restart
 </pre>
 
 <h4>create certificate</h4>
+<pre>
 $ mkdir /etc/apache2/ssl
 $ openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/apache2/ssl/apache.key -out /etc/apache2/ssl/apache.crt
 # enter ip address or domain when prompted for "Common Name"
@@ -26,6 +27,7 @@ SSLEngine On
   SSLCertificateFile /etc/apache2/ssl/yoursite.com.crt
   SSLCertificateKeyFile /etc/apache2/ssl/yoursite.com.key
   SSLCertificateChainFile /etc/apache2/ssl/yoursite.com.ca-bundle
+</pre>
 
 <h4>Enable virtualhost</h4>
 <pre>
