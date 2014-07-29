@@ -64,14 +64,13 @@ $ less /etc/mysql/my.ini
 </pre>
 
 
-<h4>Grant user permission to connect to mysql<h4>
+<h4>Grant user permission to connect to mysql</h4>
 <pre>
 $ msyql -u root -p
 # enter pwd
 > GRANT ALL PRIVILEGES ON *.* TO 'testuser'@'localhost';   #local
 > GRANT ALL PRIVILEGES ON *.* TO 'testuser'@'%' IDENTIFIED BY 'password' WITH GRANT OPTION;  #remotely
 > GRANT ALL PRIVILEGES ON testdatabase.* TO 'testuser'@'%';   #remotely on specific database
-
 </pre>
 
 <h4>Resetting root pwd</h4>
