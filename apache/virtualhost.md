@@ -31,7 +31,7 @@ DocumentRoot /var/www/othersite.com/html
 ErrorLog ${APACHE_LOG_DIR}/error.log
 CustomLog ${APACHE_LOG_DIR}/access.log combined
 &lt;/VirtualHost&gt;
-
+</pre>
 
 <h4>Redirect all http traffic to https</h4>
 <pre>
