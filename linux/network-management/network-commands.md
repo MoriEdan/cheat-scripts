@@ -37,6 +37,11 @@ $ tcpkill -i eth0 port 21    #killl outgoing ftp connection
 $ tcpkill host 192.168.1.2   #kill packets arriving from or leaving ip address
 </pre>
 
+<h4>Ignore ICMP traffic</h4>
+<pre>
+echo  1  > /proc/sys/net/ipv4/icmp_echo_ignore_all
+</pre>
+
 <h4>Enable IP forwarding</h4>
 <pre>
 $ cat /proc/sys/net/ipv4/ip_forward    #check the status
