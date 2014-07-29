@@ -3,6 +3,7 @@ mysql troubleshooting cheats
 
 workflow:<br>
 check if mysql is running using netstat<br>
+make sure nothing else is running on port 3306; if so, kill it<br>
 check if mysql is running on correct port<br>
 check mysql logs at /var/log<br>
 check bind address configuration<br> 
