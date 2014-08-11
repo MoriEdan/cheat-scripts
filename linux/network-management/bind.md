@@ -89,6 +89,29 @@ Uncomment and edit the file:
          };
 </pre>
 
+<h4> Bind9 service commands</h4>
+<pre>
+$ service bind9 start
+$ service bind9 stop
+$ service bind9 restart
+</pre>
+
+<h4>Bind Troubleshooting</h4>
+<pre>
+$ named-checkconf   #if no output config files are ok
+$ named-checkzone example.com /etc/bind/zones/master/db.example.com   #checks the zone file; returns OK 
+$ named checkzone 0.168.192.in-addr.arpa /etc/bind/zones/master/db.192.168.0   #checks reverse zone file
+
+$ service bind9 restart
+</pre>
+
+<h4>Bind Troubleshooting with Dig</h4>
+<pre>
+dig @your_name_server_ip www.example.com   #tests host to IP resolution
+dig @your_name_server_ip -x host_ip_address   #tests IP to host resolution
+</pre>
+
+
 
 
 
