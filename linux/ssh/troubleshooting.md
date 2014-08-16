@@ -6,6 +6,7 @@ turn on verbose mode and log-in<br>
 check syslog, user and messages logs at /var/log<br>
 check /etc/hosts file for proper shell path<br>
 check /etc/passwd file for proper shell path<br>
+make sure IPtables isnt configured to block SSH traffic<br>
 
 <h4>User logs in with SSH and is logged out instantly</h4>
 <pre>
